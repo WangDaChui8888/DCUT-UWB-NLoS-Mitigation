@@ -22,11 +22,3 @@ The goal is to provide a unified framework for evaluating and comparing differen
 
 - `common/` *(optional)*  
   Utility functions shared across datasets (metrics, visualization, logging).
-
----
-
-## 🚀 Usage
-### 1. Environment Setup
-Install dependencies:
-```bash
-pip install -r env/requirements.txt
