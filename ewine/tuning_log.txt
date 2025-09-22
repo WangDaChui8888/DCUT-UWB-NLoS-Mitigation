@@ -1,0 +1,11 @@
+--- Hyperparameter Tuning Log | Started at 2025-09-11 08:25:46 ---
+
+[2025-09-11 09:05:22] Model=DualTransformer, Run=1, Status=SUCCESS, Duration=2375.47s, Score=0.938402, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 0.0002, '--dropout_rate': 0.1}
+[2025-09-11 09:43:32] Model=DualTransformer, Run=2, Status=SUCCESS, Duration=2290.14s, Score=0.93488, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 0.0002, '--dropout_rate': 0.15}
+[2025-09-11 10:20:50] Model=DualTransformer, Run=3, Status=SUCCESS, Duration=2238.29s, Score=0.925324, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 0.0002, '--dropout_rate': 0.2}
+[2025-09-11 10:57:51] Model=DualTransformer, Run=4, Status=SUCCESS, Duration=2221.06s, Score=0.928911, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 0.0001, '--dropout_rate': 0.1}
+[2025-09-11 11:31:02] Model=DualTransformer, Run=5, Status=SUCCESS, Duration=1990.21s, Score=0.920209, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 0.0001, '--dropout_rate': 0.15}
+[2025-09-11 12:05:58] Model=DualTransformer, Run=6, Status=SUCCESS, Duration=2096.32s, Score=0.916549, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 0.0001, '--dropout_rate': 0.2}
+[2025-09-11 12:39:13] Model=DualTransformer, Run=7, Status=SUCCESS, Duration=1994.91s, Score=0.91799, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 5e-05, '--dropout_rate': 0.1}
+[2025-09-11 13:14:14] Model=DualTransformer, Run=8, Status=SUCCESS, Duration=2100.83s, Score=0.91593, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 5e-05, '--dropout_rate': 0.15}
+[2025-09-11 13:49:21] Model=DualTransformer, Run=9, Status=SUCCESS, Duration=2107.20s, Score=0.913007, Params={'--transformer_layers': 6, '--attention_heads': 4, '--loss_weight_error': 0.6, '--learning_rate': 5e-05, '--dropout_rate': 0.2}

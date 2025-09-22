@@ -1,0 +1,156 @@
+2025-09-18 16:32:57,593 [INFO   ]  日志系统已初始化，日志将记录到: /Users/wangdachui/Desktop/Desktop - Mac/Desktop Sorting/Thesis_PHD_Vscode/7UWB_transformer/7_python_v2/Comparision_transformer_prj/complexity_analysis_statistical.log
+2025-09-18 16:32:57,593 [INFO   ]  ============================================================
+2025-09-18 16:32:57,593 [INFO   ]  🚀 模型复杂度统计分析脚本 v3.4 (终极修复版) 启动
+2025-09-18 16:32:57,593 [INFO   ]     将分析以下 10 个目录: ['run_seed_42', 'run_seed_43', 'run_seed_44', 'run_seed_45', 'run_seed_46', 'run_seed_47', 'run_seed_48', 'run_seed_49', 'run_seed_50', 'run_seed_51']
+2025-09-18 16:32:57,593 [INFO   ]  ============================================================
+2025-09-18 16:32:57,593 [INFO   ]  --- 正在处理目录: run_seed_42 ---
+2025-09-18 16:32:57,744 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:32:59,261 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:32:59,262 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:32:59,818 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:32:59,818 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:32:59,862 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:32:59,863 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:00,110 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:00,110 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:00,114 [INFO   ]    分析完成: Parameters=16937, Model Size=1259.32KB
+2025-09-18 16:33:00,114 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:00,140 [INFO   ]    分析完成: Parameters=20, Model Size=37.45KB
+2025-09-18 16:33:00,140 [INFO   ]  --- 正在处理目录: run_seed_43 ---
+2025-09-18 16:33:00,141 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:01,336 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:01,336 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:01,771 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:01,771 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:01,805 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:01,805 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:01,976 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:01,976 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:01,979 [INFO   ]    分析完成: Parameters=17021, Model Size=1265.56KB
+2025-09-18 16:33:01,979 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:01,981 [INFO   ]    分析完成: Parameters=20, Model Size=41.84KB
+2025-09-18 16:33:01,981 [INFO   ]  --- 正在处理目录: run_seed_44 ---
+2025-09-18 16:33:01,982 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:03,242 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:03,243 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:03,669 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:03,669 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:03,707 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:03,707 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:03,881 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:03,882 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:03,885 [INFO   ]    分析完成: Parameters=17049, Model Size=1267.64KB
+2025-09-18 16:33:03,885 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:03,886 [INFO   ]    分析完成: Parameters=20, Model Size=37.32KB
+2025-09-18 16:33:03,886 [INFO   ]  --- 正在处理目录: run_seed_45 ---
+2025-09-18 16:33:03,887 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:05,082 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:05,082 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:05,579 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:05,580 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:05,614 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:05,615 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:05,788 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:05,788 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:05,792 [INFO   ]    分析完成: Parameters=17083, Model Size=1270.15KB
+2025-09-18 16:33:05,792 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:05,793 [INFO   ]    分析完成: Parameters=20, Model Size=39.98KB
+2025-09-18 16:33:05,793 [INFO   ]  --- 正在处理目录: run_seed_46 ---
+2025-09-18 16:33:05,794 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:06,988 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:06,988 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:07,414 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:07,415 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:07,451 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:07,451 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:07,629 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:07,629 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:07,632 [INFO   ]    分析完成: Parameters=16982, Model Size=1262.65KB
+2025-09-18 16:33:07,632 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:07,633 [INFO   ]    分析完成: Parameters=20, Model Size=36.19KB
+2025-09-18 16:33:07,633 [INFO   ]  --- 正在处理目录: run_seed_47 ---
+2025-09-18 16:33:07,634 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:08,911 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:08,912 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:09,340 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:09,340 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:09,376 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:09,376 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:09,550 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:09,550 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:09,553 [INFO   ]    分析完成: Parameters=16900, Model Size=1256.57KB
+2025-09-18 16:33:09,553 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:09,554 [INFO   ]    分析完成: Parameters=20, Model Size=36.26KB
+2025-09-18 16:33:09,554 [INFO   ]  --- 正在处理目录: run_seed_48 ---
+2025-09-18 16:33:09,556 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:10,756 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:10,757 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:11,204 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:11,205 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:11,241 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:11,241 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:11,486 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:11,486 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:11,489 [INFO   ]    分析完成: Parameters=17001, Model Size=1264.07KB
+2025-09-18 16:33:11,489 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:11,490 [INFO   ]    分析完成: Parameters=20, Model Size=38.19KB
+2025-09-18 16:33:11,490 [INFO   ]  --- 正在处理目录: run_seed_49 ---
+2025-09-18 16:33:11,491 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:12,735 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:12,736 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:13,184 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:13,185 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:13,223 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:13,223 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:13,398 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:13,398 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:13,401 [INFO   ]    分析完成: Parameters=17051, Model Size=1267.78KB
+2025-09-18 16:33:13,401 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:13,403 [INFO   ]    分析完成: Parameters=20, Model Size=39.25KB
+2025-09-18 16:33:13,403 [INFO   ]  --- 正在处理目录: run_seed_50 ---
+2025-09-18 16:33:13,404 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:14,790 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:14,790 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:15,274 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:15,274 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:15,311 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:15,311 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:15,494 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:15,494 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:15,497 [INFO   ]    分析完成: Parameters=17042, Model Size=1267.10KB
+2025-09-18 16:33:15,497 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:15,498 [INFO   ]    分析完成: Parameters=20, Model Size=37.25KB
+2025-09-18 16:33:15,498 [INFO   ]  --- 正在处理目录: run_seed_51 ---
+2025-09-18 16:33:15,499 [INFO   ]  --- 正在分析 TensorFlow 模型: DCUT ---
+2025-09-18 16:33:16,761 [INFO   ]    分析完成: Parameters=1287.87K, FLOPs=0.00M, Model Size=15866.29KB
+2025-09-18 16:33:16,762 [INFO   ]  --- 正在分析 TensorFlow 模型: SingleTransformer ---
+2025-09-18 16:33:17,201 [INFO   ]    分析完成: Parameters=308.29K, FLOPs=1.47M, Model Size=3837.16KB
+2025-09-18 16:33:17,202 [INFO   ]  --- 正在分析 TensorFlow 模型: DNN ---
+2025-09-18 16:33:17,235 [INFO   ]    分析完成: Parameters=0.64K, FLOPs=0.00M, Model Size=48.27KB
+2025-09-18 16:33:17,236 [INFO   ]  --- 正在分析 TensorFlow 模型: CNN-LSTM ---
+2025-09-18 16:33:17,491 [INFO   ]    分析完成: Parameters=26.65K, FLOPs=0.04M, Model Size=364.82KB
+2025-09-18 16:33:17,491 [INFO   ]  --- 正在分析 Scikit-learn 模型: LS-SVM ---
+2025-09-18 16:33:17,493 [INFO   ]    分析完成: Parameters=17030, Model Size=1266.21KB
+2025-09-18 16:33:17,493 [INFO   ]  --- 正在分析 Scikit-learn 模型: XGBoost ---
+2025-09-18 16:33:17,494 [INFO   ]    分析完成: Parameters=20, Model Size=39.91KB
+2025-09-18 16:33:17,495 [INFO   ]  
+================================================================================
+2025-09-18 16:33:17,495 [INFO   ]  📊 模型复杂度最终汇总 (均值 ± 标准差)
+2025-09-18 16:33:17,495 [INFO   ]  ================================================================================
+2025-09-18 16:33:17,497 [INFO   ]                    FLOPs (M)  Model Size (KB) Parameters (K)  Parameters (SVs) Parameters (Trees)
+2025-09-18 16:33:17,497 [INFO   ]  Model                                                                                           
+2025-09-18 16:33:17,497 [INFO   ]  DCUT                   0.00  15866.29 ± 0.00        1287.87               NaN                NaN
+2025-09-18 16:33:17,497 [INFO   ]  SingleTransformer      1.47          3837.16         308.29               NaN                NaN
+2025-09-18 16:33:17,497 [INFO   ]  DNN                    0.00            48.27           0.64               NaN                NaN
+2025-09-18 16:33:17,497 [INFO   ]  CNN-LSTM               0.04           364.82          26.65               NaN                NaN
+2025-09-18 16:33:17,497 [INFO   ]  LS-SVM                  NaN   1264.71 ± 3.95            NaN  17009.60 ± 53.26                NaN
+2025-09-18 16:33:17,497 [INFO   ]  XGBoost                 NaN     38.36 ± 1.74            NaN               NaN              20.00
+2025-09-18 16:33:17,497 [INFO   ]  ================================================================================
+2025-09-18 16:33:17,498 [INFO   ]  ✅ 汇总表格已成功保存到: /Users/wangdachui/Desktop/Desktop - Mac/Desktop Sorting/Thesis_PHD_Vscode/7UWB_transformer/7_python_v2/Comparision_transformer_prj/Ghent_Statistical_Runs/model_complexity_summary_statistical.csv
+2025-09-18 16:33:17,498 [INFO   ]  
+说明:
+2025-09-18 16:33:17,498 [INFO   ]   - 所有数值均基于对多个随机种子运行结果的统计分析。
+2025-09-18 16:33:17,498 [INFO   ]   - Parameters (K/SVs/Trees): K=千(1e3), SVs=支持向量数, Trees=树的数量。
+2025-09-18 16:33:17,498 [INFO   ]   - FLOPs (M): M=兆(1e6)。表示单次推理的计算量（batch=1）。
+2025-09-18 16:33:17,498 [INFO   ]   - Model Size (KB): 模型在磁盘上的静态存储大小。
+2025-09-18 16:33:17,498 [INFO   ]  🚀 统计分析脚本执行完毕。
